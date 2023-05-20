@@ -25,10 +25,16 @@ main h2{
     color: #efbc2f;
 }
 
-div{
+.buttons{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.div__container{
+    display: none;
+    align-items: center;
+    flex-direction: column;
 }
 
 button{

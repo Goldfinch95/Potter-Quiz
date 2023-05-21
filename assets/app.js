@@ -1,6 +1,7 @@
 const DIV_BUTTONS = document.getElementById("div__buttons");
 const BTN_EASY = document.getElementById("button__easy");
 const BTN_MIDDLE = document.getElementById("button__medium");
+const BTN_HARD = document.getElementById("button__hard");
 const DIV_CONTAINER = document.getElementById("div__container");
 const H2_QUESTION = document.getElementById("h2__question");
 const DIV_BUTTONS_ANSWER = document.getElementById("div__buttons-answers");
@@ -15,6 +16,7 @@ let correctAnswer = false;
 let currentQuestion = 0;
 let clickedEasy = true;
 let clickedMiddle = true;
+let clickedHard = true;
 let counter = 1;
 
 const EASY_QUESTIONS = [{
@@ -162,6 +164,78 @@ const INTERMEDIATE_QUESTIONS = [{
     answer_fourth: "Scabers",
 }]
 
+const HARD_QUESTIONS = [{
+    
+    question: "1.¿Que efecto produce el filtro de muertos en vida?",
+    answer_one: "Mata al que la bebe",
+    answer_two: "Produce un sueño similar a la muerte",
+    answer_three: "Revive a los muertos",
+    answer_fourth: "Genera Suerte",   
+},{
+    
+    question: "2.¿con cuantos puntos gano gryffindor la copa de las casas del año 1991?",
+    answer_one: "284",
+    answer_two: "477",
+    answer_three: "842",
+    answer_fourth: "482",
+},{
+    
+    question: "3.¿Cual era el orden de las pruebas que pusieron los profesores y Hagrid para proteger la piedra filosofal?",
+    answer_one: "Fluffy,Lazo del Diablo,Llaves aladas,ajedrez mágico,troll de montaña,pociones,espejo de Oesed",
+    answer_two: "Fluffy,Lazo del Diablo,Ajedrez Mágico, LLaves aladas,espejo de Oesed",
+    answer_three: "Fluffy,Lazo del Diablo,Llaves aladas, Ajedrez mágico,espejo de Oesed",
+    answer_fourth: "Fluffy,Lazo del Diablo,llaves aladas, pociones, ajedrez mágico,troll de montaña, acromantula,espejo de Oesed",
+},{
+    
+    question: "4.¿Como era el nombre completo del profesor Dumbledore?",
+    answer_one: "Albus  Ignatius William Brian Dumbledore",
+    answer_two: "Albus Percival Rackham Brandon Dumbledore",
+    answer_three: "Albus Percival Aberforth Bilius Dumbledore",
+    answer_fourth: "Albus Percival Wulfric Brian Dumbledore",
+},{
+    
+    question: "5.¿Que ingredientes se necesitan para crear la poción multijugos?",
+    answer_one: "Alyhosti, Asfodelo Cortado,Descurania Sophia,piel de serpiente arbórea africana,Acónito,Ajenjo,algo de la persona que se quiera transformar",
+    answer_two: "crisopos,antimonio crudo,sanguijuelas,Descurania Sophia,centinodia,cuerno de unicornio,piel de lobo ucraniano,gusarajo,algo de la persona que se quiera transformar",
+    answer_three: "crisopos,antimonio crudo,sanguijuelas,Descurania Sophia,centinodia,cuerno de bicornio,piel de serpiente arbórea africana,gusarajo,algo de la persona que se quiera transformar",
+    answer_fourth: "Huevo de Ashwinder, sanguijuelas, Descurania Sophia, Cáscara de huevo de occamy, Piel de Demiguise, cuerno Erumpent,algo de la persona que se quiera transformar",
+},{
+    
+    question: "6.¿Que criatura  vio Harry Potter la primera vez que va a la oficina del profesor Lupin?",
+    answer_one: "Un Grindylow",
+    answer_two: "Un Hipogrifo",
+    answer_three: "Un Boggart",
+    answer_fourth: "Un Dementor",
+},{
+    
+    question: "7.¿Como era la descripción que poseía el espejo de “Oesed”?",
+    answer_one: "Oesed leorb ere cut edon isara cut se onotse",
+    answer_two: "Oesed lenoz aro cut onra cut se otse",
+    answer_three: "Oesed leara cut edo esed sen ozaro cut se onotse",
+    answer_fourth: "Oesed lenoz aro cut edon isara cut se onotse",
+},{
+    
+    question: "8.¿que significa las siglas E.X.T.A.S.I.S?",
+    answer_one: "Exámenes Titulares de Alta Sabiduría e Invocaciones Secretas",
+    answer_two: "Exámenes Terribles de Alta Sabiduría e Invocaciones Secretas",
+    answer_three: "Exámenes Trolles de Alta Sabiduría e Indispensablemente Secretas",
+    answer_fourth: "Exámenes Temporales de Alta Sabiduría e Intenciones Secretas",
+},{
+    
+    question: "9.¿como llama Ginny al grupo que forman los estudiantes para estudiar D.C.A.O en el año 1995”?",
+    answer_one: "Entidad de Defensa",
+    answer_two: "Ejercito de Dumbledore",
+    answer_three: "Ejercito de Potter",
+    answer_fourth: "Entidad de Hogwarts",
+},{
+    
+    question: "10.¿Cual Horrocrux destruye Dumbledore?",
+    answer_one: "El diario de Tom Ryddle",
+    answer_two: "La copa de Helga Hufflepuff",
+    answer_three: "El anillo de Gaunt",
+    answer_fourth: "El guardapelo de Slytherin",
+}]
+
 
 
 const SHOW_QUESTIONS = () => {
@@ -207,6 +281,19 @@ const PASS_MIDDLE_QUESTIONS = ()=>{
     }
 }
 
+const PASS_HARD_QUESTIONS = ()=>{
+    for (let i = 0; i <= HARD_QUESTIONS.length; i++) {
+        H2_QUESTION.innerHTML = HARD_QUESTIONS[currentQuestion].question;
+        
+        BTN_ANSWER_1.innerHTML = HARD_QUESTIONS[currentQuestion].answer_one;
+        
+        BTN_ANSWER_2.innerHTML = HARD_QUESTIONS[currentQuestion].answer_two;
+        
+        BTN_ANSWER_3.innerHTML = HARD_QUESTIONS[currentQuestion].answer_three;
+        
+        BTN_ANSWER_4.innerHTML = HARD_QUESTIONS[currentQuestion].answer_fourth;
+    }
+}
 
 
 BTN_EASY.addEventListener("click", ()=>{
@@ -216,6 +303,7 @@ BTN_EASY.addEventListener("click", ()=>{
         PASS_EASY_QUESTIONS();
         currentQuestion++;
         clickedMiddle = false;
+        clickedHard = false;
     }
 })
 
@@ -226,6 +314,18 @@ BTN_MIDDLE.addEventListener("click", ()=>{
         PASS_MIDDLE_QUESTIONS();
         currentQuestion++;
         clickedEasy = false;
+        clickedHard = false;
+    }
+})
+
+BTN_HARD.addEventListener('click', ()=>{
+    let clickedHard = true;
+    SHOW_QUESTIONS();
+    if(clickedHard){
+        PASS_HARD_QUESTIONS();
+        currentQuestion++;
+        clickedEasy = false;
+        clickedMiddle = false;
     }
 })
 
@@ -236,6 +336,10 @@ BTN_ANSWER_1.addEventListener("click", ()=>{
     }
     else if(clickedMiddle){
         PASS_MIDDLE_QUESTIONS();
+        currentQuestion++;
+    }
+    else if(clickedHard){
+        PASS_HARD_QUESTIONS();
         currentQuestion++;
     }
    
@@ -250,6 +354,10 @@ BTN_ANSWER_2.addEventListener("click", ()=>{
         PASS_MIDDLE_QUESTIONS();
         currentQuestion++;
     }
+    else if(clickedHard){
+        PASS_HARD_QUESTIONS();
+        currentQuestion++;
+    }
 })
 
 BTN_ANSWER_3.addEventListener("click", ()=>{
@@ -261,6 +369,10 @@ BTN_ANSWER_3.addEventListener("click", ()=>{
         PASS_MIDDLE_QUESTIONS();
         currentQuestion++;
     }
+    else if(clickedHard){
+        PASS_HARD_QUESTIONS();
+        currentQuestion++;
+    }
 })
 
 BTN_ANSWER_4.addEventListener("click", ()=>{
@@ -270,6 +382,10 @@ BTN_ANSWER_4.addEventListener("click", ()=>{
     }
     else if(clickedMiddle){
         PASS_MIDDLE_QUESTIONS();
+        currentQuestion++;
+    }
+    else if(clickedHard){
+        PASS_HARD_QUESTIONS();
         currentQuestion++;
     }
 })

@@ -1,0 +1,613 @@
+{"easy_mode": {
+    "questions":[
+        {"text": "1.¿En que casa quedo seleccionado Harry Potter en Hogwarts?",
+        "answers": [
+            {
+                "text": "Gryffindor",
+                "is_correct": true
+        },
+        {
+                "text": "Hufflepuff",
+                "is_correct": false
+        },
+        {
+                "text": "Ravenclaw",
+                "is_correct": false
+        },
+        {
+                "text": "Slytherin",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "2.¿Cual era la criatura mítica que vivía en la cámara secreta?",
+        "answers": [
+            {
+                "text": "Cerbero",
+                "is_correct": false
+        },
+        {
+                "text": "Centauro",
+                "is_correct": false
+        },
+        {
+                "text": "Basilisco",
+                "is_correct": true
+        },
+        {
+                "text": "Hipogrifo",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "3.¿cual es el apellido del director de Hogwarts?",
+        "answers": [
+            {
+                "text": "Lockhart",
+                "is_correct": false
+        },
+        {
+                "text": "Slughorn",
+                "is_correct": false
+        },
+        {
+                "text": "Potter",
+                "is_correct": false
+        },
+        {
+                "text": "Dumbledore",
+                "is_correct": true
+        }
+    ]
+    },
+    {"text": "4.¿Cuantos campeones usualmente participan en el torneo de los tres magos?",
+        "answers": [
+            {
+                "text": "1",
+                "is_correct": false
+        },
+        {
+                "text": "2",
+                "is_correct": false
+        },
+        {
+                "text": "3",
+                "is_correct": true
+        },
+        {
+                "text": "4",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "5.¿Como se llama “el que no debe ser nombrado”?",
+        "answers": [
+            {
+                "text": "Filch",
+                "is_correct": false
+        },
+        {
+                "text": "Voldemort",
+                "is_correct": true
+        },
+        {
+                "text": "El Principe Mestizo",
+                "is_correct": false
+        },
+        {
+                "text": "Wallenby",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "6.¿cual es el apodo que utilizan los alumnos para identificar al fantasma de la casa Gryffindor?",
+        "answers": [
+            {
+                "text": "Nick casi decapitado",
+                "is_correct": true
+        },
+        {
+                "text": "La dama gris",
+                "is_correct": false
+        },
+        {
+                "text": "El baron sanguinario",
+                "is_correct": false
+        },
+        {
+                "text": "El fraile gordo",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "7.¿Cual es la función del gira tiempo?",
+        "answers": [
+            {
+                "text": "multiplicar un objeto",
+                "is_correct": false
+        },
+        {
+                "text": "Volver al pasado",
+                "is_correct": true
+        },
+        {
+                "text": "Levitar un objeto",
+                "is_correct": false
+        },
+        {
+                "text": "Cambiar la forma de una persona",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "8.¿Como se llama el autobus que llama Harry de Privet Drive?",
+        "answers": [
+            {
+                "text": "Noctambulo",
+                "is_correct": true
+        },
+        {
+                "text": "Ford Anglia",
+                "is_correct": false
+        },
+        {
+                "text": "Oesed",
+                "is_correct": false
+        },
+        {
+                "text": "Knockturn",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "9.¿Que  regalo misterioso recibió harry potter en navidad en su primer año en Hogwarts?",
+        "answers": [
+            {
+                "text": "Un cromo de magos y brujas famosos",
+                "is_correct": false
+        },
+        {
+                "text": "Un giroscopio",
+                "is_correct": false
+        },
+        {
+                "text": "Una capa de invisibilidad",
+                "is_correct": true
+        },
+        {
+                "text": "Un diario mágico",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "10.¿Cuantos Horrocruxes creo Voldemort?",
+        "answers": [
+            {
+                "text": "4",
+                "is_correct": false
+        },
+        {
+                "text": "5",
+                "is_correct": false
+        },
+        {
+                "text": "6",
+                "is_correct": false
+        },
+        {
+                "text": "7",
+                "is_correct": true
+        }
+    ]
+    }
+    ]
+},
+"normal_mode": {
+    "questions":[
+        {"text": "1.¿Cuantos puntos se obtienen al capturar la Snitch Dorada en un partido de quidditch?",
+        "answers": [
+            {
+                "text": "300 puntos",
+                "is_correct": false
+        },
+        {
+                "text": "250 puntos",
+                "is_correct": false
+        },
+        {
+                "text": "100 puntos",
+                "is_correct": false
+        },
+        {
+                "text": "150 puntos",
+                "is_correct": true
+        }
+    ]
+    },
+    {"text": "2.¿cual es la mascota de la casa Slytherin?",
+        "answers": [
+            {
+                "text": "Una serpiente",
+                "is_correct": true
+        },
+        {
+                "text": "Un león",
+                "is_correct": false
+        },
+        {
+                "text": "Un tejón",
+                "is_correct": false
+        },
+        {
+                "text": "Una águila",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "3.¿Cuales fueron las 3 pruebas que tuvieron que pasar los campeones del torneo de los tres magos?",
+        "answers": [
+            {
+                "text": "Atravesar el Bosque Prohibido, Volar hacia Londres, Recolectar recuerdos de un pensadero",
+                "is_correct": false
+        },
+        {
+                "text": "Sobrevivir al Dragon, nadar en el Lago Negro, atravesar el laberinto",
+                "is_correct": true
+        },
+        {
+                "text": "Montar un Dragon, Beber Una poción dolorosa, Luchar contra inferis en una cueva",
+                "is_correct": false
+        },
+        {
+                "text": "Jugar un partido de quidditch, Matar a un basilisco, Recorrer un pasillo lleno de profecías",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "4.¿Como se llamaba el hipogrifo de Hagrid que luego paso a ser parte de Sirius?",
+        "answers": [
+            {
+                "text": "Aragog",
+                "is_correct": false
+        },
+        {
+                "text": "Buckbeak",
+                "is_correct": true
+        },
+        {
+                "text": "Grumpy",
+                "is_correct": false
+        },
+        {
+                "text": "Nagini",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "5.¿Donde viven los Weasley?",
+        "answers": [
+            {
+                "text": "En una mansion",
+                "is_correct": false
+        },
+        {
+                "text": "En Privet Drive",
+                "is_correct": false
+        },
+        {
+                "text": "En el callejón Diagon",
+                "is_correct": false
+        },
+        {
+                "text": "En la madriguera",
+                "is_correct": true
+        }
+    ]
+    },
+    {"text": "6.¿como se llama la sala que comúnmente se le dice que “va y viene”?",
+        "answers": [
+            {
+                "text": "La sala gringotts",
+                "is_correct": false
+        },
+        {
+                "text": "La sala de los menesteres",
+                "is_correct": true
+        },
+        {
+                "text": "La sala olivander",
+                "is_correct": false
+        },
+        {
+                "text": "La sala de los misterios",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "7.¿como se llamaba la mascota acromantula de Hagrid?",
+        "answers": [
+            {
+                "text": "Buckbeak",
+                "is_correct": false
+        },
+        {
+                "text": "Nagini",
+                "is_correct": false
+        },
+        {
+                "text": "Aragog",
+                "is_correct": true
+        },
+        {
+                "text": "Brutus",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "8.¿Como se llama el ministro de magia que no cree que Voldemort regreso?",
+        "answers": [
+            {
+                "text": "Cornelius Fudge",
+                "is_correct": true
+        },
+        {
+                "text": "Rufus Scrimgeour",
+                "is_correct": false
+        },
+        {
+                "text": "Pius Thicknesse",
+                "is_correct": false
+        },
+        {
+                "text": "Kingsley Schacklebolt",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "9.¿Que otorga la poción “felix felicis”?",
+        "answers": [
+            {
+                "text": "Suerte",
+                "is_correct": true
+        },
+        {
+                "text": "Transformación del aspecto",
+                "is_correct": false
+        },
+        {
+                "text": "Felicidad",
+                "is_correct": false
+        },
+        {
+                "text": "Sueño",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "10.¿Como se llamaba la Mascota de Dumbledore?",
+        "answers": [
+            {
+                "text": "Crookshanks",
+                "is_correct": false
+        },
+        {
+                "text": "Pigwidgeon",
+                "is_correct": false
+        },
+        {
+                "text": "Fawkes",
+                "is_correct": true
+        },
+        {
+                "text": "Scabers",
+                "is_correct": false
+        }
+    ]
+    }
+    ]
+},
+"hardcore_mode": {
+    "questions":[
+        {"text": "1.¿Que efecto produce el filtro de muertos en vida?",
+        "answers": [
+            {
+                "text": "Mata al que la bebe",
+                "is_correct": false
+        },
+        {
+                "text": "Produce un sueño similar a la muerte",
+                "is_correct": true
+        },
+        {
+                "text": "Revive a los muertos",
+                "is_correct": false
+        },
+        {
+                "text": "Genera Suerte",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "2.¿con cuantos puntos gano gryffindor la copa de las casas del año 1991?",
+        "answers": [
+            {
+                "text": "284",
+                "is_correct": false
+        },
+        {
+                "text": "477",
+                "is_correct": false
+        },
+        {
+                "text": "842",
+                "is_correct": false
+        },
+        {
+                "text": "482",
+                "is_correct": true
+        }
+    ]
+    },
+    {"text": "3.¿Cual era el orden de las pruebas que pusieron los profesores y Hagrid para proteger la piedra filosofal?",
+        "answers": [
+            {
+                "text": "Fluffy,Lazo del Diablo,Llaves aladas,ajedrez mágico,troll de montaña,pociones,espejo de Oesed",
+                "is_correct": true
+        },
+        {
+                "text": "Fluffy,Lazo del Diablo,Ajedrez Mágico, LLaves aladas,espejo de Oesed",
+                "is_correct": false
+        },
+        {
+                "text": "Fluffy,Lazo del Diablo,Llaves aladas, Ajedrez mágico,espejo de Oesed",
+                "is_correct": false
+        },
+        {
+                "text": "Fluffy,Lazo del Diablo,llaves aladas, pociones, ajedrez mágico,troll de montaña, acromantula,espejo de Oesed",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "4.¿Como era el nombre completo del profesor Dumbledore?",
+        "answers": [
+            {
+                "text": "Albus  Ignatius William Brian Dumbledore",
+                "is_correct": false
+        },
+        {
+                "text": "Albus Percival Rackham Brandon Dumbledore",
+                "is_correct": false
+        },
+        {
+                "text": "Albus Percival Aberforth Bilius Dumbledore",
+                "is_correct": false
+        },
+        {
+                "text": "Albus Percival Wulfric Brian Dumbledore",
+                "is_correct": true
+        }
+    ]
+    },
+    {"text": "5.¿Que ingredientes se necesitan para crear la poción multijugos?",
+        "answers": [
+            {
+                "text": "Alyhosti, Asfodelo Cortado,Descurania Sophia,piel de serpiente arbórea africana,Acónito,Ajenjo,algo de la persona que se quiera transformar",
+                "is_correct": false
+        },
+        {
+                "text": "crisopos,antimonio crudo,sanguijuelas,Descurania Sophia,centinodia,cuerno de unicornio,piel de lobo ucraniano,gusarajo,algo de la persona que se quiera transformar",
+                "is_correct": false
+        },
+        {
+                "text": "crisopos,antimonio crudo,sanguijuelas,Descurania Sophia,centinodia,cuerno de bicornio,piel de serpiente arbórea africana,gusarajo,algo de la persona que se quiera transformar",
+                "is_correct": true
+        },
+        {
+                "text": "Huevo de Ashwinder, sanguijuelas, Descurania Sophia, Cáscara de huevo de occamy, Piel de Demiguise, cuerno Erumpent,algo de la persona que se quiera transformar",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "6.¿Que criatura  vio Harry Potter la primera vez que va a la oficina del profesor Lupin?",
+        "answers": [
+            {
+                "text": "Un Grindylow",
+                "is_correct": true
+        },
+        {
+                "text": "Un Hipogrifo",
+                "is_correct": false
+        },
+        {
+                "text": "Un Boggart",
+                "is_correct": false
+        },
+        {
+                "text": "Un Dementor",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "7.¿Como era la descripción que poseía el espejo de “Oesed”?",
+        "answers": [
+            {
+                "text": "Oesed leorb ere cut edon isara cut se onotse",
+                "is_correct": false
+        },
+        {
+                "text": "Oesed lenoz aro cut onra cut se otse",
+                "is_correct": false
+        },
+        {
+                "text": "Oesed leara cut edo esed sen ozaro cut se onotse",
+                "is_correct": false
+        },
+        {
+                "text": "Oesed lenoz aro cut edon isara cut se onotse",
+                "is_correct": true
+        }
+    ]
+    },
+    {"text": "8.¿que significa las siglas E.X.T.A.S.I.S?",
+        "answers": [
+            {
+                "text": "Exámenes Titulares de Alta Sabiduría e Invocaciones Secretas",
+                "is_correct": false
+        },
+        {
+                "text": "Exámenes Terribles de Alta Sabiduría e Invocaciones Secretas",
+                "is_correct": true
+        },
+        {
+                "text": "Exámenes Trolles de Alta Sabiduría e Indispensablemente Secretas",
+                "is_correct": false
+        },
+        {
+                "text": "Exámenes Temporales de Alta Sabiduría e Intenciones Secretas",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "9.¿como llama Ginny al grupo que forman los estudiantes para estudiar D.C.A.O en el año 1995”?",
+        "answers": [
+            {
+                "text": "Entidad de Defensa",
+                "is_correct": false
+        },
+        {
+                "text": "Ejercito de Dumbledore",
+                "is_correct": true
+        },
+        {
+                "text": "Ejercito de Potter",
+                "is_correct": false
+        },
+        {
+                "text": "Entidad de Hogwarts",
+                "is_correct": false
+        }
+    ]
+    },
+    {"text": "10.¿Cual Horrocrux destruye Dumbledore?",
+        "answers": [
+            {
+                "text": "El diario de Tom Ryddle",
+                "is_correct": false
+        },
+        {
+                "text": "La copa de Helga Hufflepuff",
+                "is_correct": false
+        },
+        {
+                "text": "El anillo de Gaunt",
+                "is_correct": true
+        },
+        {
+                "text": "El guardapelo de Slytherin",
+                "is_correct": true
+        }
+    ]
+    }
+    ]
+}
+}

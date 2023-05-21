@@ -37,6 +37,12 @@ main h2{
     flex-direction: column;
 }
 
+#div__container-2{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+}
+
 .div__answers{
     /*border: 1px solid white;*/
     padding-top: 4%;

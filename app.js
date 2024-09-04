@@ -1,14 +1,6 @@
-import data from "./data.json" assert { type: "json" }
+import data from "./assets/data.json" assert { type: "json" }
+import {DIV_BUTTONS, BTN_EASY, BTN_MIDDLE, BTN_HARD, DIV_CONTAINER, H2_QUESTION, BTN_ANSWER, DIV_CONTAINER_TWO, H2_FINAL_RESULT} from "./pepito.js"
 
-const DIV_BUTTONS = document.getElementById("div__buttons");
-const BTN_EASY = document.getElementById("button__easy");
-const BTN_MIDDLE = document.getElementById("button__medium");
-const BTN_HARD = document.getElementById("button__hard");
-const DIV_CONTAINER = document.getElementById("div__container");
-const H2_QUESTION = document.getElementById("h2__question");
-const BTN_ANSWER = document.getElementsByClassName("button__answer");
-const DIV_CONTAINER_TWO = document.getElementById("div__container-2");
-const H2_FINAL_RESULT = document.getElementById("h2__final-result");
 
 let currentQuestion = 0;
 let selection;

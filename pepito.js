@@ -1,0 +1,9 @@
+export const DIV_BUTTONS = document.getElementById("div__buttons");
+export const BTN_EASY = document.getElementById("button__easy");
+export const BTN_MIDDLE = document.getElementById("button__medium");
+export const BTN_HARD = document.getElementById("button__hard");
+export const DIV_CONTAINER = document.getElementById("div__container");
+export const H2_QUESTION = document.getElementById("h2__question");
+export const BTN_ANSWER = document.getElementsByClassName("button__answer");
+export const DIV_CONTAINER_TWO = document.getElementById("div__container-2");
+export const H2_FINAL_RESULT = document.getElementById("h2__final-result");
